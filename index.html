@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Martin Schuler - Portfolio</title>
+	<meta name="description" content="Martin Schuler's portfolio showcasing his projects and contact information.">
+	<meta name="keywords" content="Martin Schuler, portfolio, projects, GitHub, LinkedIn, email">
+	<meta name="author" content="Martin Schuler">
+	<meta name="robots" content="index, follow">
+	<meta name="theme-color" content="#201">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #201;
+			color: #ddd;
+			text-align: center;
+		}
+		.container {
+			max-width: 600px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		h1 {
+			color: #fff;
+			margin-bottom: 20px;
+			position: relative;
+		}
+		.name::after {
+			content: " █";
+			animation: cursor 1.6s infinite cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		}
+		@keyframes cursor {
+			0% {
+				opacity: 1;
+			}
+			50% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			}
+		}
+		.link {
+			display: block;
+			margin-bottom: 10px;
+			text-decoration: none;
+			color: #bbb;
+			font-size: 18px;
+		}
+		.link:hover {
+			text-decoration: underline;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Martin <span class="name">Schuler</span></h1>
+		<a href="https://github.com/mschlr" class="link">GitHub</a>
+		<a href="https://www.linkedin.com/in/martin-schuler" class="link">LinkedIn</a>
+		<a href="mailto:Martin Schuler (martin.schuler@outlook.com)" class="link">Email</a>
+	</div>
+</body>
+</html>
