@@ -1,0 +1,1 @@
+Static Website: [https://mschlr.github.io](https://mschlr.github.io)
