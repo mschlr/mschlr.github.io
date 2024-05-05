@@ -54,6 +54,33 @@
 			text-decoration: underline;
 			color: #fff;
 		}
+		.fingerprint {
+		font-family: 'Courier New', Courier, monospace;
+		color: #aaa;
+		font-size: 14px;
+		transition: color 0.5s ease-in-out;
+		}
+		.fingerprint:hover {
+			color: #0f0;
+			animation: greenFade 1.1s infinite;
+		}
+		@keyframes greenFade {
+			0%, 100% {
+				text-shadow:
+					0 0 5px #00ff00,
+					0 0 10px #00ff00,
+					0 0 15px #00ff00,
+					0 0 20px #009900,
+					0 0 35px #009900,
+					0 0 40px #009900,
+					0 0 50px #009900;
+				color: #0f0;
+			}
+			50% {
+				text-shadow: none;
+				color: #aaa;
+			}
+		}
 	</style>
 </head>
 <body>
@@ -62,6 +89,7 @@
 		<a href="https://github.com/mschlr" class="link">GitHub</a>
 		<a href="https://www.linkedin.com/in/martin-schuler" class="link">LinkedIn</a>
 		<a href="mailto:martin.schuler@outlook.com" class="link">Email</a>
+		<span class="fingerprint">PGP: 73FB F433 1981 20B1 9639 2C59 146C B340 7931 3D52</span>
 	</div>
 </body>
 </html>
